@@ -85,7 +85,7 @@ Il progetto è costruito su **[datapizza-ai](https://github.com/datapizza-labs/d
 - **Reranking**: Cross-Encoder
 - **Web Search**: Tavily API
 - **UI**: Streamlit
-- **Data**: Kaggle datasets (Hotels on Goibibo, Indian Places to Visit)
+- **Data**: Kaggle datasets ([Hotels on Goibibo](https://www.kaggle.com/datasets/PromptCloudHQ/hotels-on-goibibo) e [Indian Places to Visit](https://www.kaggle.com/datasets/ritvik1909/indian-places-to-visit-reviews-data))
 
 ---
 
@@ -204,7 +204,7 @@ Potrai selezionare l'agente con cui conversare e interagire via terminale.
 ## 📁 Struttura Progetto
 
 ```
-goa-travel-agent-ai/
+goa_travel_agent/
 ├── config/
 │   └── settings.py              # Configurazione centralizzata
 ├── data/
