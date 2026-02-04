@@ -92,11 +92,11 @@ Il progetto è costruito su **[datapizza-ai](https://github.com/datapizza-labs/d
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/homepage.png)
+![Home Page](screenshots/homepage.jpg)
 *Dashboard principale con statistiche e quick start*
 
 ### Chat Interface
-![Chat Interface](screenshots/chat_interface.png)
+![Chat Interface](screenshots/chat_interface.jpg)
 *Interfaccia chat con selezione agente e memoria conversazionale*
 
 ### Hotel Searching
