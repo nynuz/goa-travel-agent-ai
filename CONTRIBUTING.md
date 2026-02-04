@@ -9,7 +9,7 @@ Fai un fork del repository sul tuo account GitHub.
 
 ### 2. Clona il Fork
 ```bash
-git clone https://github.com/your-username/goa-travel-agent-ai.git
+git clone https://github.com/nynuz/goa-travel-agent-ai.git
 cd goa-travel-agent-ai
 ```
 

@@ -116,7 +116,7 @@ Il progetto è costruito su **[datapizza-ai](https://github.com/datapizza-labs/d
 
 ### 1. Clona il Repository
 ```bash
-git clone https://github.com/yourusername/goa-travel-agent-ai.git
+git clone https://github.com/nynuz/goa-travel-agent-ai.git
 cd goa-travel-agent-ai
 ```
 
