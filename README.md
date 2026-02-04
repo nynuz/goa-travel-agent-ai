@@ -92,16 +92,16 @@ Il progetto è costruito su **[datapizza-ai](https://github.com/datapizza-labs/d
 ## 📸 Screenshots
 
 ### Home Page
-![Home Page](screenshots/home.png)
+![Home Page](screenshots/homepage.png)
 *Dashboard principale con statistiche e quick start*
 
 ### Chat Interface
-![Chat Interface](screenshots/chat.png)
+![Chat Interface](screenshots/chat_interface.png)
 *Interfaccia chat con selezione agente e memoria conversazionale*
 
-### Itinerary Planning
-![Itinerary](screenshots/itinerary.png)
-*Esempio di itinerario dettagliato generato da Raj*
+### Hotel Searching
+![Hotel Searching](screenshots/hotel_search.jpg)
+*Esempio di ricerca hotel dettagliata*
 
 ---
 
