@@ -1,0 +1,21 @@
+[project]
+name = "travel-agent"
+version = "0.1.0"
+description = "AI Travel Agent for Goa - multi-agent planning with hybrid vector search"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pandas",
+    "python-dotenv",
+    "kaggle",
+    "tqdm",
+    "sentence-transformers",
+    "scikit-learn",
+    "qdrant-client",
+    "joblib",
+    "numpy",
+    "datapizza-ai",
+    "openai",
+    "tavily-python",
+    "streamlit",
+]
