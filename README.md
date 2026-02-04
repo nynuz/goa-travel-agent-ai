@@ -67,7 +67,7 @@ Il progetto è costruito su **[datapizza-ai](https://github.com/datapizza-labs/d
 
 **Come viene utilizzato nel progetto:**
 - Ogni agente (Raj, Marco, Priya) è un'istanza della classe `Agent` con client OpenAI dedicato
-- I tool (ricerca RAG, web search, verifica hotel) sono funzioni Python decorate con `@tool`
+- I tool (ricerca RAG, web search, verifica hotel) sono funzioni Python con decoratore `@tool`
 - La memoria conversazionale è gestita automaticamente dal framework con `stateless=False`
 - Raj può invocare Marco e Priya come "sub-agenti" grazie al metodo `can_call()`
 
@@ -116,8 +116,8 @@ Il progetto è costruito su **[datapizza-ai](https://github.com/datapizza-labs/d
 
 ### 1. Clona il Repository
 ```bash
-git clone https://github.com/yourusername/goa-travel-agent.git
-cd goa-travel-agent
+git clone https://github.com/yourusername/goa-travel-agent-ai.git
+cd goa-travel-agent-ai
 ```
 
 ### 2. Installa Dipendenze
@@ -125,30 +125,11 @@ cd goa-travel-agent
 Il progetto utilizza `uv` per la gestione delle dipendenze (più veloce di pip):
 
 ```bash
-# Installa uv se non presente
-pip install uv
-
 # Installa dipendenze del progetto
 uv sync
 ```
 
-Oppure con pip tradizionale:
-```bash
-pip install -r requirements.txt
-```
-
-### 3. Configura Credenziali Kaggle
-
-Scarica `kaggle.json` dal tuo profilo Kaggle e posizionalo in:
-- **Linux/Mac**: `~/.kaggle/kaggle.json`
-- **Windows**: `C:\Users\<username>\.kaggle\kaggle.json`
-
-Assicurati che abbia i permessi corretti:
-```bash
-chmod 600 ~/.kaggle/kaggle.json
-```
-
-### 4. Configura Variabili d'Ambiente
+### 3. Configura Variabili d'Ambiente
 
 Crea un file `.env` nella root del progetto:
 
@@ -162,6 +143,10 @@ QDRANT_API_KEY=your-api-key
 
 # Tavily (opzionale)
 TAVILY_API_KEY=tvly-...
+
+# Kaggle API Credentials
+KAGGLE_USERNAME=your-kaggle-username
+KAGGLE_KEY=KGAT_...
 ```
 
 Per Qdrant locale:
@@ -219,7 +204,7 @@ Potrai selezionare l'agente con cui conversare e interagire via terminale.
 ## 📁 Struttura Progetto
 
 ```
-goa_travel_agent/
+goa-travel-agent-ai/
 ├── config/
 │   └── settings.py              # Configurazione centralizzata
 ├── data/
@@ -294,7 +279,7 @@ uv run python main.py
 ```
 
 ### Errore Kaggle: "401 Unauthorized"
-Verifica che `kaggle.json` sia nella posizione corretta e abbia i permessi giusti.
+Verifica che hai inserito correttamente le tue credenziali Kaggle nel file `.env`.
 
 ### Performance lente
 - Usa Qdrant Cloud invece di localhost per latency migliore
